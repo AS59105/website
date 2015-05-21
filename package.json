@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AS59105/website",
   "devDependencies": {
-    "harp": "^0.17.0"
+    "harp": "^0.17.0",
+    "node-sass": "^2.1.1"
   }
 }

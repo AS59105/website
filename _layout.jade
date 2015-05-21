@@ -3,4 +3,12 @@ html
   head
     link(rel="stylesheet" href="/main.css")
   body
-    != yield
+    #wrapper
+      include ./includes/header.jade
+      #main
+        #container
+          #content
+            != yield
+      #footer
+        #colophon
+          ココフッタ
